@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.navr, .footer {
+    position: fixed;
+    width: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+    height: 10vh;
+}
+.navr {
+    top: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer {
+    bottom: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 100px auto 80px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1 {
+    color: #333;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.button {
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 18px;
+    color: white;
+    background: rebeccapurple;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover {
+    background: rebeccapurple;
+}
+.table-container {
+    display: none;
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: rebeccapurple;
+    color: white;
+}
+.form-container {
+    margin-top: 20px;
+    text-align: left;
+}
+fieldset {
+    max-width: 750px auto;
+}
+.form-group {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+.form-group input {
+    padding: 10px;
+    border: 1px solid #2b2a2a;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.fnik input {
+    width: 450px;
+}
+.fnama input {
+    width: 434px;
+}
+.fschool input {
+    width: 368px;
+}
+.fjab {
+    align-items: center;
+    gap: 10px;
+}
+.fjab label {
+    font-weight: bold;
+    min-width: 120px;
+    text-align: left;
+}
+.fjab select {
+    width: 434px;
+    padding: 10px;
+    border: 1px solid #2b2a2a;
+    border-radius: 5px;
+}
+.fnip input {
+    width: 451px;
+}
+.form-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background: rebeccapurple;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background: rebeccapurple;
+}

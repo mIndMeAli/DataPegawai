@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar atau Tambah Data</title>
+    <link rel="stylesheet" href="sform.css">
+</head>
+<body>
+    <div class="navr">
+        <a href="home.html" class="button">Beranda</a>
+        <a href="search.html" class="button">Cari</a>
+        <a href="form.html" class="button">Tambah/Data</a>
+        <a href="status.html" class="button">Cek Status</a>
+    </div>
+    <div class="container">
+        <h2>Tambah Data Baru</h2>
+        <form id="dataForm">
+            <div class="form-container">
+                <fieldset>
+                    <div class="form-group">
+                        <div class="fnik">
+                            <label for="nik">NIK: <input id="nik" name="nik" type="text" required /></label>
+                        </div>
+                        <div class="fnama">
+                            <label for="nama">Nama: <input id="nama" name="nama" type="text" required /></label>
+                        </div>
+                        <div class="fschool">
+                            <label for="sekul">Nama Sekolah: <input id="sekul" name="sekul" type="text" required /></label>
+                        </div>
+                    </div>
+
+                    <div class="fjab">
+                        <label for="jabfil">Jabatan :</label>
+                        <select name="jabfil" id="jabfil">
+                            <option value="">Pilih</option>
+                            <option value="Guru Ahli Pertama">Guru Ahli Pertama</option>
+                            <option value="Guru Ahli Muda">Guru Ahli Muda</option>
+                            <option value="Guru Ahli Madya">Guru Ahli Madya</option>
+                        </select>
+                    </div>
+
+                        <div class="form-group">
+                            <div class="fnip">
+                                <label for="nip">NIP: <input id="nip" name="nip" type="text" required></label>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+        <div id="message" style="margin-top: 10px; color: green;"></div>
+    </div>
+
+    <footer>
+        <p> Copyright &copy; 2025 Data Pengangkatan</p>
+    </footer>
+
+    <script src="form.js"></script>
+</body>
+</html>
